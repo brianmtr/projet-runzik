@@ -11,13 +11,14 @@
 
 .before_nav_reseaux img{
     width: 50px;
+    margin-top: 15px;
 }
 
 .before_nav_other{
     width: 170px;
     float: right;
     margin-right: 10px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .before_nav_other img{
@@ -28,10 +29,6 @@
 width: 200px;
 margin-left: 35%;
 margin-right: 35%;
-}
-
-.header_image img{
-    filter: brightness(60%);
 }
 
 .navbar{
@@ -92,64 +89,59 @@ margin-right: 35%;
     z-index: 1000;
 }
 #menu-deroulant li:hover ul {
-
     left: auto;
 }
 
 .titre_un{
-    color: #319998;
-    text-align: center;
-    padding: 50px;
-}
-
-.container{
     width: 100%;
-    float: left;
-    height: 900px;
 }
 
-.container p{
-    width: 30%;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 400px;
+.titre_un h2{
+    padding-left: 100px;
+    padding-top: 50px;
+    color: #319998;
+margin-bottom: 50px;
+}
+
+.titre_un img{
+    width: 700px;
+    padding-left: 100px;
+}
+
+.descrip h2{
+position: relative;
+left: 50%;
+bottom: 500px;
+}
+
+.descrip ul{
+    position: relative;
+    left: 54%;
+    bottom: 480px;
+}
+
+.text{
+    width: 60%;
+}
+
+.text h2{
+    color: #319998;
+}
+
+.text p{
+    margin-top: 50px;
+    margin-right: 100px;
     text-align: justify;
 }
 
-.container img{
-    float: right;
-    margin-right: 300px;
+.bar{
+    width: 10px;
+    height: 170px;
+    background-color: #F58E3C;
     position: relative;
-    bottom: 400px;
-    width: 600px;
-}
-
-.titre_deux{
-    text-align: center;
-    color: #319998;
-    padding-top: 50px;
-    font-size: 20px;
-}
-
-.titre_trois{
-    text-align: center;
-    color: #319998;
-}
-
-.titre_trois h2{
-    margin: 100px;
-}
-
-.produit_phare img{
-    width: 500px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.description p{
-    display: inline;
-    padding: 130px;
-    padding-right: 0px;
+    right: 590px;
+    bottom: 170px;
+    border-radius: 10px;
 }
 
 *{
@@ -160,8 +152,6 @@ footer{
     width: 100%;
     height: 350px;
     background-color: #14162D;
-    position: relative;
-    top: 100px;
 }
 
 .newsletter{
@@ -307,5 +297,4 @@ right: 20%;
             top: 720px;
         }
 }
-
 
